@@ -1,0 +1,19 @@
+5
+Node_1 Node_1
+Node_2 Node_2
+Node_3 Node_3
+Node_4 Node_4
+Node_5 Node_5
+12
+Edge_1 Node_1 Node_2 3
+Edge_1V Node_2 Node_1 3
+Edge_2 Node_1 Node_3 10
+Edge_2V Node_3 Node_1 10
+Edge_3 Node_2 Node_4 5
+Edge_3V Node_4 Node_2 5
+Edge_4 Node_3 Node_4 6
+Edge_4V Node_4 Node_3 6
+Edge_5 Node_4 Node_5 4
+Edge_5V Node_5 Node_4 4
+Edge_6 Node_3 Node_5 15
+Edge_6V Node_5 Node_3 15
