@@ -1,0 +1,59 @@
+33
+Node_0 Node_0
+Node_1 Node_1
+Node_2 Node_2
+Node_3 Node_3
+Node_4 Node_4
+Node_5 Node_5
+Node_6 Node_6
+Node_7 Node_7
+Node_8 Node_8
+Node_9 Node_9
+Node_10 Node_10
+ANode_0 ANode_0
+ANode_1 ANode_1
+ANode_2 ANode_2
+ANode_3 ANode_3
+ANode_4 ANode_4
+ANode_5 ANode_5
+ANode_6 ANode_6
+ANode_7 ANode_7
+ANode_8 ANode_8
+ANode_9 ANode_9
+ANode_10 ANode_10
+BNode_0 BNode_0
+BNode_1 BNode_1
+BNode_2 BNode_2
+BNode_3 BNode_3
+BNode_4 BNode_4
+BNode_5 BNode_5
+BNode_6 BNode_6
+BNode_7 BNode_7
+BNode_8 BNode_8
+BNode_9 BNode_9
+BNode_10 BNode_10
+24
+Edge_0 Node_0 Node_1 85
+Edge_1 Node_0 Node_2 217
+Edge_2 Node_0 Node_4 173
+Edge_3 Node_2 Node_6 186
+Edge_4 Node_2 Node_7 103
+Edge_5 Node_3 Node_7 183
+Edge_6 Node_5 Node_8 250
+Edge_7 Node_8 Node_9 84
+Edge_8 Node_7 Node_9 167
+Edge_9 Node_4 Node_9 502
+Edge_10 Node_9 Node_10 40
+Edge_11 Node_1 Node_10 600
+Edge_0V Node_1 Node_0 85
+Edge_1V Node_2 Node_0 217
+Edge_2V Node_4 Node_0 173
+Edge_3V Node_6 Node_2 186
+Edge_4V Node_7 Node_2 103
+Edge_5V Node_7 Node_3 183
+Edge_6V Node_8 Node_5 250
+Edge_7V Node_9 Node_8 84
+Edge_8V Node_9 Node_7 167
+Edge_9V Node_9 Node_4 502
+Edge_10V Node_10 Node_9 40
+Edge_11V Node_10 Node_1 600
