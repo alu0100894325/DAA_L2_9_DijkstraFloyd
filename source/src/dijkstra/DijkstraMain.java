@@ -32,11 +32,16 @@ public class DijkstraMain {
 			Graph graph = new Graph (args[0]);
 			//Ejecutamos n veces para poder comparar tiempo de ejecución con Floyd.
 			
+			long startTime = System.nanoTime();
 			for (int i = 0; i < graph.getVertexes().size(); i++) {
 				DijkstraAlgorithm dijkstra = new DijkstraAlgorithm(graph);
 				Vertex source = graph.getVertexes().get(i);
 				dijkstra.execute(source);
 			}
+			
+			long stopTime = System.nanoTime();
+		    long elapsedTime = stopTime - startTime;
+		    System.out.println("Tiempo de ejecución: " + elapsedTime + " ns");
 		
 			//Descomentar para mostrar el camino.
 			/*LinkedList<Vertex> path = dijkstra.getPath(graph.getVertexes().get(graph.getVertexes().size() - 1));

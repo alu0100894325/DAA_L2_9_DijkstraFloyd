@@ -28,10 +28,18 @@ public class FloydMain {
 				throw new IllegalArgumentException (" parameters have to be exactly 1");
 			
 			Graph graph = new Graph (args[0]);
+			
+			long startTime = System.nanoTime();
+			
 			FloydAlgorithm floyd = new FloydAlgorithm(graph);
 			floyd.execute();
-		
-			System.out.println(floyd.toString());
+			
+			long stopTime = System.nanoTime();
+		    long elapsedTime = stopTime - startTime;
+		    System.out.println("Tiempo de ejecución: " + elapsedTime + " ns");
+		    
+		    // Descomentar para mostrar matrices.
+			//System.out.println(floyd.toString());
 			
 		} catch (IllegalArgumentException e) {
 			System.err.println("IllegalArgumentException has ocurred:" + e.getMessage());
